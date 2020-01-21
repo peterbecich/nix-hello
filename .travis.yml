@@ -1,4 +1,6 @@
 language: nix
+arch: arm64
+os: bionic
 
 cache:
   directories:
@@ -9,6 +11,7 @@ addons:
     packages:
     - build-essential
     - help2man
+    - autoconf
 
 # https://nixos.wiki/wiki/Nix_on_Travis
 # before_install:
